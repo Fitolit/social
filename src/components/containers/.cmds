@@ -1,0 +1,28 @@
+1) npm init --y //создаёт пакадж джейсон с начальными настройками
+
+2) npm i react react-dom //устанавливает сам реакт
+
+3) npm i -D webpack webpack-cli  webpack-dev-server // -D означает сейф деф, установка вебпака.  webpack-dev-server - препод написал на этапе 10-го шага. чтобы устновщик его не просил
+
+4) npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties babel-loader css-loader html-webpack-plugin mini-css-extract-plugin  // это все нужно чтобы реакт завелся. 
+
+@babel/plugin-proposal-class-properties - это штука которая позволяет писать методы внутри классов компонентов
+
+Разобраться что они делают
+css-loader
+html-webpack-plugin 
+mini-css-extract-plugin
+
+5) добавить ру4ками папку publick и src c соответствующими файлами
+
+6) добавить webpack.config.js 
+
+7) добавить .babelrc - настройки babel чтобы в него подгрузились настройки касательно реакта, чтобы бабле понял что перед ним реакт
+
+8) Настроить вебпак конфиг
+
+9) Подправить пакадж джейсон пункт scripts, заменить "test": "echo \"Error: no test specified\" && exit 1"  на   "dev": "webpack server"   это нужно для девсервера
+
+10) в терминале команда npm run dev
+
+11) Подключение реакта к проекту. в index.jsx прописать импорты

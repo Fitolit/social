@@ -1,0 +1,5 @@
+// здесь происходит глобальная настройка babel
+
+{
+    "presets": [ "@babel/preset-env", "@babel/preset-react"]
+}
